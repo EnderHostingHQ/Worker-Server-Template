@@ -134,4 +134,4 @@ For issues, questions, or contributions, please refer to the main repository doc
 
 ## License
 
-See the [LICENSE](../LICENSE) file for licensing information.
+See the [LICENSE](https://github.com/EnderHostingHQ/Worker-Server-Template/blob/master/LICENSE) file for licensing information.
