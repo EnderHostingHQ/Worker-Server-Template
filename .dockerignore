@@ -1,0 +1,21 @@
+# Docker
+*.dockerfile
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# pre-commit
+.pre-commit-config.yaml
+setup.sh
+setup.bat
+setup.ps1
+
+# Git
+.gitignore
+.gitattributes
+.git/
+
+# Environments
+.venv
+venv/
+venv.bak/
