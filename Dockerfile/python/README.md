@@ -15,7 +15,7 @@ This repository provides Docker images for the following Python versions that ar
 | 3.12 | Security | 2028-10 | `enderhostinghq/worker-python:3.12` |
 | 3.11 | Security | 2027-10 | `enderhostinghq/worker-python:3.11` |
 | 3.10 | Security | 2026-10 | `enderhostinghq/worker-python:3.10` |
-| Latest | Alias to 3.14 | - | `enderhostinghq/worker-python:latest` |
+| Latest | - | - | `enderhostinghq/worker-python:latest` |
 
 > **Note**: We only support Python versions that are not end-of-life according to the [official Python release schedule](https://devguide.python.org/versions/).
 
