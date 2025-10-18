@@ -1,0 +1,46 @@
+{
+    "name": "python",
+    "version": "3.14",
+    "flavor": "slim",
+    "base": null,
+    "end_of_life": "2030-10-31",
+    "workdir": "/app",
+    "volume": "/app",
+    "read_only": true,
+    "tmpfs": [
+        {
+            "mount": "/tmp",
+            "options": [
+                "rw",
+                "noexec",
+                "nosuid",
+                "size=64m"
+            ]
+        },
+        {
+            "mount": "/var/tmp",
+            "options": [
+                "rw",
+                "noexec",
+                "nosuid",
+                "size=64m"
+            ]
+        },
+        {
+            "mount": "/var/log",
+            "options": [
+                "rw",
+                "noexec",
+                "nosuid",
+                "size=128m"
+            ]
+        }
+    ],
+    "default": {
+        "environment": {
+            "HOST": "0.0.0.0",
+            "PORT": "80"
+        },
+        "cmd": ["python", "main.py"]
+    }
+}
